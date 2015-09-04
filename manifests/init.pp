@@ -23,6 +23,7 @@ class winbind (
   $manage_messagebus_service            = $::winbind::params::manage_messagebus_service,
   $manage_oddjob_service                = $::winbind::params::manage_oddjob_service,
   $oddjobd_homdir_mask                  = $::winbind::params::oddjobd_homdir_mask,
+  $package_ensure                       = $::winbind::params::package_ensure,
   $pam_cached_login                     = $::winbind::params::pam_cached_login,
   $pam_debug_state                      = $::winbind::params::pam_debug_state,
   $pam_debug                            = $::winbind::params::pam_debug,

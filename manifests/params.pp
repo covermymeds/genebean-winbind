@@ -10,6 +10,7 @@ class winbind::params {
   $krb5_ticket_lifetime                 = '24h'
   $manage_oddjob_service                = true
   $oddjobd_homdir_mask                  = '0077'
+  $package_ensure                       = 'latest'
   $pam_cached_login                     = 'yes'
   $pam_debug                            = 'no'
   $pam_debug_state                      = 'no'
